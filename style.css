@@ -1,0 +1,41 @@
+@import 'global.css';
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+.container__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 1.25rem 40px 1.25rem;
+  border-radius: 0.9375rem;
+  background-color: hsl(0, 0%, 100%);
+  width: 230px;
+}
+
+.container__card__figure__image {
+  width: 100%;
+  border-radius: 0.625rem;
+}
+
+.container__card__heading {
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  padding-top: 1.25rem;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.container__card__description {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  text-align: center;
+  padding-top: 0.625rem;
+  font-size: 0.6875rem;
+  line-height: 12px;
+}
